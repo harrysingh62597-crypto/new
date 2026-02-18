@@ -14,24 +14,26 @@ import cert12 from './assest/Images/certs/certificatea (12).jpeg';
 import cert13 from './assest/Images/certs/certificatea (13).png';
 import cert14 from './assest/Images/certs/certificatea (14).png';
 
-const Blogs = () => {
+const Achievements = () => {
   return (
     <>
       <div id="page" className="page one-page-style">
         <div id='main' className='site-main'>
           <div className='pt-wrapper'>
             <div className='subpages'>
-              <section className="pt-page" id="blog">
+              <section className="pt-page" id="achievements">
                 <div className="section-inner custom-page-content">
                   <div className="section-title-block second-style">
-                    <h2 className="section-title">Certificates</h2>
-                    <h5 className="section-description">My Achievements</h5>
+                    <h2 className="section-title">Achievements</h2>
+                    <h5 className="section-description">My Certifications</h5>
                   </div>
 
                   <div className="section-content">
                     <div className="row">
                       <div className="col-xs-12 col-sm-12">
                         <div className="blog-masonry two-columns clearfix">
+
+
 
 
                           <div className="item post-1">
@@ -216,4 +218,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default Achievements;

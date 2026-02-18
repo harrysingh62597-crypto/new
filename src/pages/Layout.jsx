@@ -36,7 +36,7 @@ const Layout = () => {
                                     <Link to="/portfolio">Portfolio</Link>
                                 </li>
                                 <li>
-                                    <Link to="/blogs">Blogs</Link>
+                                    <Link to="/achievements">Achievements</Link>
                                 </li>
                                 <li>
                                     <Link to="/contact">Contact</Link>

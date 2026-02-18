@@ -1,16 +1,16 @@
-import ReactDOM from "react-dom/client";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import About from "./pages/AboutMe";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
-import Blogs from "./pages/Blogs";
+import Achievements from "./pages/Achievements";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import RequireAuth from "./components/RequireAuth";
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/new">
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route element={<RequireAuth />}>
@@ -18,7 +18,7 @@ export default function App() {
             <Route index element={<About />} />
             <Route path="resume" element={<Resume />} />
             <Route path="portfolio" element={<Portfolio />} />
-            <Route path="blogs" element={<Blogs />} />
+            <Route path="achievements" element={<Achievements />} />
             <Route path="contact" element={<Contact />} />
           </Route>
         </Route>
@@ -26,5 +26,4 @@ export default function App() {
     </BrowserRouter>
   );
 }
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+// Removed duplicate root rendering
