@@ -10,7 +10,7 @@ import client3 from './assest/Images/client-3.png';
 import client4 from './assest/Images/client-4.png';
 import client5 from './assest/Images/client-5.png';
 import client6 from './assest/Images/client-6.png';
-import client7 from './assest/Images/client-7.png'; 
+import client7 from './assest/Images/client-7.png';
 
 const About = () => {
   return (
@@ -251,7 +251,7 @@ const About = () => {
                         <div className="col-inner">
 
                           <div className="block-title">
-                            <h3>Clients<span></span></h3>
+                            <h3>Social Media<span></span></h3>
                           </div>
 
                           <div className="clients owl-carousel">
@@ -266,7 +266,7 @@ const About = () => {
                               </a>
                             </div>
                             <div className="client-block">
-                              <a href="#" target="_blank" title="Logo">
+                              <a href="https://github.com/harrysingh62597-crypto" target="_blank" title="Logo">
                                 <img src={client5} alt="Logo" />
                               </a>
                             </div>
